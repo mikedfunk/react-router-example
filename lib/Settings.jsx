@@ -1,11 +1,10 @@
 var React = require('react');
 
-var Settings = React.createClass({
+// just show some text, nothing special
+module.exports = React.createClass({
   render: function () {
     return(
       <h1>I am settings</h1>
     );
   }
 });
-
-module.exports = Settings;

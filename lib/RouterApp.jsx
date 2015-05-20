@@ -3,6 +3,8 @@ var Router = require('react-router');
 var RouteHandler = Router.RouteHandler;
 var Link = Router.Link;
 
+// use the Link element to link to each route. Main element is the RouteHandler
+// which will use the route nesting to display the relevant handler and parents
 var RouterApp = React.createClass({
   render: function () {
     return(

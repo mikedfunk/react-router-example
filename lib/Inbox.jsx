@@ -1,13 +1,10 @@
 var React = require('react');
 
-var Inbox = React.createClass({
+// just show some text, nothing special
+module.exports = React.createClass({
   render: function () {
     return(
-    <div>
       <h1>I am an inbox!</h1>
-    </div>
     );
   }
 });
-
-module.exports = Inbox;
